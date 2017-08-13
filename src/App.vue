@@ -1,9 +1,6 @@
 <template>
   <div id="app">
-    <layout>
-      <!-- 内容分发,router-view替换layout中solt  -->
-      <router-view></router-view>
-    </layout>
+    <router-view></router-view>
   </div>
 </template>
 

@@ -6,9 +6,9 @@
             <Icon type="ios-navigate"></Icon>
             导航一
         </template>
-        <Menu-item name="/page1">页面 1</Menu-item>
-        <Menu-item name="/page2">页面 2</Menu-item>
-        <Menu-item name="/page3">页面 3</Menu-item>
+        <Menu-item name="/home/page1">页面 1</Menu-item>
+        <Menu-item name="/home/page2">页面 2</Menu-item>
+        <Menu-item name="/home/page3">页面 3</Menu-item>
     </Submenu>
     <Submenu name="2">
         <template slot="title">

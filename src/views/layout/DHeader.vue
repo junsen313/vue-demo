@@ -1,7 +1,7 @@
 <template>
   <Menu mode="horizontal" theme="dark" active-name="1">
       <!-- logo绑定点击事件，使用编程式导航切换路由到首页 -->
-      <div class="layout-logo" @click="$router.push({path: '/'})">LOGO</div>
+      <div class="layout-logo" @click="$router.push({path: '/home/'})">LOGO</div>
       <div class="layout-nav">
         <!-- 绑定应用标题  -->
         <h3>{{title}}</h3>

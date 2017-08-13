@@ -11,8 +11,7 @@
           </i-col>
           <i-col span="20" class="layout-right">
               <div class="layout-content-main">
-                <!--分容分发，layout中的内容站位 -->
-                <slot></slot>
+                <router-view></router-view>
               </div>
           </i-col>
       </Row>
